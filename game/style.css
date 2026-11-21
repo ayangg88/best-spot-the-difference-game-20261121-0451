@@ -1,0 +1,36 @@
+/* Twin Lanterns — page shell: a dark backdrop, the game centred, one quiet hint line. */
+* { box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0e0a1e;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.stage {
+  text-align: center;
+  padding: 8px;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.55);
+  background: #191230;
+}
+
+.hint {
+  color: #8d82b5;
+  font-size: 13px;
+  margin: 10px 0 0;
+}
